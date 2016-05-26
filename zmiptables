@@ -20,7 +20,7 @@ fi
 printusage() {
 echo "Description: Generate list of IP's from undesirable senders, and add them to your denied IPTables list.
 
-1) Usage: $0 iptab   	    # Display Rick's Default IpTable Config
+1) Usage: $0 iptab   	    # Display Default IpTable Config
 
 2) Usage: $0 setup	    # Running the script for the first time?
 
