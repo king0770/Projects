@@ -17,6 +17,11 @@ echo "We need iptables."
 exit 0
 fi
 
+zmprov gs `zmhostname` zimbraServiceInstalled zimbraServiceEnabled | grep mta > /dev/null; if [ $? != 0 ]; then 
+echo "We Need the MTA"; 
+exit 0
+fi
+
 printusage() {
 echo "Description: Generate list of IP's from undesirable senders, and add them to your denied IPTables list.
 
