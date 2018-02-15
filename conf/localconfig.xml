@@ -1,0 +1,33 @@
+<key name="cbpolicyd_mysql_data_directory">
+  <value>${zimbra_home}/data/cbpolicyd/mysql/data</value>
+</key>
+<key name="cbpolicyd_mysql_enabled">
+  <value>false</value>
+</key>
+<key name="cbpolicyd_mysql_errlogfile">
+  <value>${zimbra_home}/log/cbpolicyd-mysqld.log</value>
+</key>
+<key name="cbpolicyd_mysql_host">
+  <value>127.0.0.1</value>
+</key>
+<key name="cbpolicyd_mysql_mycnf">
+  <value>${zimbra_home}/conf/cbpolicyd-my.cnf</value>
+</key>
+<key name="cbpolicyd_mysql_password">
+  <value>*</value>
+</key>
+<key name="cbpolicyd_mysql_pidfile">
+  <value>${zimbra_home}/data/cbpolicyd/mysql/mysql.pid</value>
+</key>
+<key name="cbpolicyd_mysql_port">
+  <value>7307</value>
+</key>
+<key name="cbpolicyd_mysql_root_password">
+  <value>*</value>
+</key>
+<key name="cbpolicyd_mysql_socket">
+  <value>${zimbra_home}/data/cbpolicyd/mysql/mysql.sock</value>
+</key>
+<key name="cbpolicyd_mysql_user">
+  <value>zimbra</value>
+</key>
